@@ -5,6 +5,9 @@ A simple note taking iOS application that lets the user to create simple notes w
 ## Installation
 After cloning the repo XCode 9 opens this project with no availanle schemes. Click the No scheme button in the upper left corner then click New scheme..., finally click OK in the modal window that appears. Now the project is ready to run in XCode with a simulator. In order to run it on an actual device, you must select a development team in the project navigator's signing section.
 
+## Localization
+The app is localized to English, Czech and Hungarian languages. To switch between the languages edit the scheme and select the desired language from the Application Language dropdown menu.
+
 ## Usage
 
 1. Install the app
