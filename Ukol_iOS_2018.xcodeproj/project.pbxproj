@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		E55402EC20D8D83900921D28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55402EB20D8D83900921D28 /* AppDelegate.swift */; };
-		E55402EE20D8D83900921D28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55402ED20D8D83900921D28 /* ViewController.swift */; };
 		E55402F120D8D83900921D28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E55402EF20D8D83900921D28 /* Main.storyboard */; };
 		E55402F320D8D83A00921D28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E55402F220D8D83A00921D28 /* Assets.xcassets */; };
 		E55402F620D8D83A00921D28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E55402F420D8D83A00921D28 /* LaunchScreen.storyboard */; };
 		E554030120D8D83A00921D28 /* Ukol_iOS_2018Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E554030020D8D83A00921D28 /* Ukol_iOS_2018Tests.swift */; };
+		E554030C20D8DB0500921D28 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E554030B20D8DB0500921D28 /* TableViewController.swift */; };
+		E554030E20D8E1C300921D28 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E554030D20D8E1C300921D28 /* DataStore.swift */; };
+		E554031020D8E1E200921D28 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = E554030F20D8E1E200921D28 /* Note.swift */; };
+		E554031220D9211200921D28 /* NoteEditVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E554031120D9211200921D28 /* NoteEditVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +31,6 @@
 /* Begin PBXFileReference section */
 		E55402E820D8D83900921D28 /* Ukol_iOS_2018.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ukol_iOS_2018.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E55402EB20D8D83900921D28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E55402ED20D8D83900921D28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E55402F020D8D83900921D28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E55402F220D8D83A00921D28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E55402F520D8D83A00921D28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +38,13 @@
 		E55402FC20D8D83A00921D28 /* Ukol_iOS_2018Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ukol_iOS_2018Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E554030020D8D83A00921D28 /* Ukol_iOS_2018Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ukol_iOS_2018Tests.swift; sourceTree = "<group>"; };
 		E554030220D8D83A00921D28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E554030B20D8DB0500921D28 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		E554030D20D8E1C300921D28 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		E554030F20D8E1E200921D28 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		E554031120D9211200921D28 /* NoteEditVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteEditVC.swift; sourceTree = "<group>"; };
+		E554031320DA2F5D00921D28 /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hu; path = hu.lproj/Main.strings; sourceTree = "<group>"; };
+		E554031420DA31C700921D28 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Main.strings; sourceTree = "<group>"; };
+		E554031520DA32A100921D28 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +87,15 @@
 			isa = PBXGroup;
 			children = (
 				E55402EB20D8D83900921D28 /* AppDelegate.swift */,
-				E55402ED20D8D83900921D28 /* ViewController.swift */,
+				E554031520DA32A100921D28 /* README.md */,
+				E554030B20D8DB0500921D28 /* TableViewController.swift */,
+				E554031120D9211200921D28 /* NoteEditVC.swift */,
 				E55402EF20D8D83900921D28 /* Main.storyboard */,
 				E55402F220D8D83A00921D28 /* Assets.xcassets */,
 				E55402F420D8D83A00921D28 /* LaunchScreen.storyboard */,
 				E55402F720D8D83A00921D28 /* Info.plist */,
+				E554030D20D8E1C300921D28 /* DataStore.swift */,
+				E554030F20D8E1E200921D28 /* Note.swift */,
 			);
 			path = Ukol_iOS_2018;
 			sourceTree = "<group>";
@@ -197,8 +210,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E55402EE20D8D83900921D28 /* ViewController.swift in Sources */,
 				E55402EC20D8D83900921D28 /* AppDelegate.swift in Sources */,
+				E554030E20D8E1C300921D28 /* DataStore.swift in Sources */,
+				E554031220D9211200921D28 /* NoteEditVC.swift in Sources */,
+				E554030C20D8DB0500921D28 /* TableViewController.swift in Sources */,
+				E554031020D8E1E200921D28 /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +241,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				E55402F020D8D83900921D28 /* Base */,
+				E554031320DA2F5D00921D28 /* hu */,
+				E554031420DA31C700921D28 /* cs */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -244,6 +262,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -304,6 +323,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -359,7 +379,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = U34Z5BZDK4;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Ukol_iOS_2018/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -368,7 +388,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mywebkft.Ukol-iOS-2018";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -377,7 +397,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = U34Z5BZDK4;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Ukol_iOS_2018/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -386,7 +406,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mywebkft.Ukol-iOS-2018";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
